@@ -1,3 +1,2 @@
-node_modules/
-jspm_packages/
-\texto.html
+/node_modules
+/hola.html
