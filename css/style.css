@@ -1,0 +1,467 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+header {
+  display: flex;
+  align-items: center;
+  max-height: 5vw;
+  background-color: #ff5757; }
+
+.logo {
+  width: 10vw;
+  padding-left: 24px;
+  position: relative;
+  top: 38px; }
+
+.menu {
+  display: flex;
+  list-style: none; }
+
+.item_nav {
+  padding-left: 14px;
+  padding-right: 14px;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  text-decoration: none; }
+
+.fa-shopping-basket {
+  color: white;
+  font-size: 20px; }
+
+.carrito {
+  border-radius: 50%;
+  padding: 10px;
+  margin-right: 56px; }
+
+.img_hero {
+  width: 30vw; }
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: #ffbd592e;
+  padding: 3vw; }
+
+.btn_hero {
+  display: flex;
+  text-decoration: none;
+  color: white;
+  font-size: montserrat;
+  font-family: "Montserrat", sans-serif;
+  background: #ff9a00;
+  padding: 14px;
+  border-radius: 20px;
+  width: 11vw;
+  margin-top: 16px; }
+
+.text_hero_title {
+  font-family: "Permanent Marker", cursive;
+  font-size: 3em; }
+
+.text_hero_subTitle {
+  font-family: "Montserrat", sans-serif; }
+
+.comoTrabajamos_text {
+  font-family: "Permanent Marker", cursive;
+  text-align: center;
+  font-size: 3em;
+  margin: 1vw; }
+
+.heroVideo {
+  width: 44vw;
+  margin-left: -85px;
+  margin-top: 10px;
+  position: relative;
+  top: 30px; }
+
+.imagen_hero {
+  background: #ff5757;
+  width: 41vw; }
+
+.animaciones {
+  display: flex;
+  justify-content: space-around;
+  margin: 4vw; }
+
+.categorias {
+  display: flex;
+  justify-content: space-around; }
+
+.titulo_explicacion {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  margin: 10px;
+  color: #ff5757; }
+
+.text_explicacion {
+  text-align: center;
+  font-size: 17px;
+  font-family: "Montserrat", sans-serif; }
+
+.categoriaShop {
+  background-color: #ff5757;
+  height: 20vw;
+  border-radius: 20px;
+  box-shadow: #ff575770 13px 9px 6px 0px;
+  margin-bottom: 50px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.categoriaShop h3 {
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Montserrat", sans-serif;
+  margin-left: 20px; }
+
+.categoria_foto {
+  width: 20vw; }
+
+.categoria_foto_perro {
+  width: 20vw;
+  margin-top: 58px; }
+
+.btn-categoria {
+  display: flex;
+  text-decoration: none;
+  color: white;
+  font-size: montserrat;
+  font-family: "Montserrat", sans-serif;
+  background: #ff9a00;
+  padding: 14px;
+  margin-right: 20px;
+  border-radius: 20px; }
+
+.direcion {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.4em; }
+
+.map {
+  display: flex;
+  justify-content: center; }
+
+.map > iframe {
+  width: 90%;
+  height: 25vw;
+  margin: 2vw; }
+
+.nosotros_text {
+  width: 28vw; }
+
+.hero_juguetes {
+  background-image: url(/img/gato_jugueteria.png);
+  background-size: cover;
+  height: 31vw;
+  background-attachment: fixed; }
+
+.juguetes_text {
+  text-align: center;
+  color: white;
+  font-size: 5rem;
+  font-family: "Permanent Marker", cursive;
+  letter-spacing: 6px; }
+
+.textContenedor {
+  padding-top: 4vw; }
+
+.layout {
+  display: flex;
+  justify-content: space-between; }
+
+.productos_items {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 4vw;
+  font-family: "Montserrat", sans-serif; }
+
+.carrito_compras {
+  width: 46%; }
+
+.producto {
+  border-radius: 3vw;
+  border: 1px solid rgba(117, 117, 147, 0.2);
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+  padding: 10px;
+  margin: 20px;
+  min-height: auto;
+  justify-content: space-around; }
+
+.img_producto {
+  display: flex;
+  justify-content: center;
+  padding: 20px; }
+
+.img_p {
+  width: 100%;
+  border-radius: 20px 20px; }
+
+.info_producto {
+  font-weight: 600;
+  line-height: 19px;
+  font-size: 16rem;
+  font-size: 1rem;
+  max-width: 16vw; }
+
+.precio {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0; }
+
+.precio_producto {
+  font-size: 34px; }
+
+.btn {
+  display: block;
+  text-align: center;
+  margin: 20px auto;
+  padding: 10px;
+  background: #ffa926;
+  text-decoration: none;
+  color: white;
+  width: 70%;
+  font-weight: bold;
+  border-radius: 20px; }
+
+.mostrarCartel {
+  background: #ff5757;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  text-align: center; }
+
+.descripcion_mostrar_btn {
+  display: block;
+  text-align: center;
+  margin: 20px auto;
+  padding: 10px;
+  background: #ffa926;
+  text-decoration: none;
+  color: white;
+  width: 70%;
+  font-weight: bold;
+  border-radius: 20px;
+  border: none; }
+
+.descripcion_oculta {
+  display: none; }
+
+.descripcion_mostrar {
+  display: block; }
+
+.img_card {
+  width: 50px; }
+
+.btn:focus {
+  outline: none;
+  box-shadow: none; }
+
+.descripcion_mostrar_btn:focus {
+  outline: none;
+  box-shadow: none; }
+
+.hero_medicamento {
+  background-image: url(/img/perro_medico.png);
+  background-size: cover;
+  height: 35vw;
+  background-attachment: fixed;
+  background-position: center; }
+
+.contacto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px; }
+
+.titulo {
+  padding: 20px; }
+
+.titulo_text {
+  font-family: "Permanent Marker", cursive;
+  font-size: 3rem; }
+
+.sub_text {
+  font-family: "Montserrat";
+  font-size: 1.5rem;
+  text-align: center; }
+
+.formulario_contacto {
+  display: flex;
+  flex-direction: column;
+  font-family: "Montserrat", sans-serif;
+  padding: 2vw;
+  background: #ffbd59;
+  border-radius: 16px;
+  width: 26vw;
+  box-shadow: 0px 8px 17px 2px #dadada, 0px 3px 14px 2px, 0px 5px 5px -3px #d8d4d4; }
+
+.input_form {
+  height: 35px;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  text-align: center; }
+
+.bloque_1 {
+  display: flex; }
+
+.contenido_bloque {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px; }
+
+.radio_item {
+  display: flex;
+  align-items: center; }
+
+.radio_item span {
+  margin-right: 4px; }
+
+.size_radio {
+  width: 22px; }
+
+.radio_gato {
+  margin-left: 5px; }
+
+.select_mascota {
+  margin-top: 17px;
+  display: block; }
+
+.bloque_2 {
+  padding-left: 10px; }
+
+.text_area {
+  padding-left: 10px; }
+
+.enviar {
+  display: flex;
+  justify-content: center; }
+
+.btn_submit {
+  margin-top: 15px;
+  width: 20vw;
+  height: 34px;
+  border: none;
+  background: #ff5757;
+  color: white;
+  font-weight: bold;
+  font-size: 21px;
+  border-radius: 5px; }
+
+.text_form {
+  font-weight: bold;
+  padding: 10px 0; }
+
+textarea {
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px; }
+
+.contacto {
+  background-image: url(/img/contact_bg.png);
+  background-size: cover;
+  background-position: center; }
+
+.redireccion {
+  display: flex;
+  align-items: center;
+  flex-direction: column; }
+
+.text_redireccion {
+  margin-top: 7vw;
+  font-family: "Permanent Marker", cursive;
+  text-align: center; }
+
+.btn_redirec {
+  display: flex;
+  text-decoration: none;
+  color: white;
+  font-size: montserrat;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 3px;
+  border-radius: 3px;
+  background: linear-gradient(145deg, #ffa90a, #f59400);
+  box-shadow: 1px 3px 10px #ed8f00, 0px 1px 6px #ffa500;
+  padding: 14px;
+  border-radius: 20px;
+  margin: 16px; }
+
+footer {
+  background: #710303;
+  color: white; }
+
+.promocion {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2vw; }
+
+.title_promotion {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2em; }
+
+.sub_title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.5em; }
+
+.separador {
+  border: 1px solid white; }
+
+.sucribite {
+  border: none;
+  width: 32vw;
+  height: 43px;
+  padding-left: 20px; }
+
+.logo_footer {
+  width: 10vw; }
+
+.franco_footer {
+  display: flex;
+  align-items: center; }
+
+.pages {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1vw; }
+
+.pages_web {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 5vw; }
+
+.footer_list {
+  list-style: none; }
+
+.list_redes {
+  display: flex;
+  list-style: none; }
+
+.list_redes a {
+  padding: 0 10px; }
+
+.logo_text_footer {
+  font-family: "Montserrat", sans-serif; }
+
+.title_footer {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  text-align: center; }
+
+.menuWeb {
+  padding: 0 12px; }
+
+.btn_footer {
+  border: none;
+  background: #ffbd59;
+  padding: 14px;
+  color: white;
+  font-weight: bold; }
