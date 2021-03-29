@@ -35,6 +35,19 @@ header {
   padding: 10px;
   margin-right: 56px; }
 
+/* .loader {
+  position: absolute;
+  background: white;
+
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+} */
 .img_hero {
   width: 30vw; }
 
@@ -236,6 +249,12 @@ header {
   color: white;
   text-align: center; }
 
+#mostrarCartelVerde {
+  background: green;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  text-align: center; }
+
 .descripcion_mostrar_btn {
   display: block;
   text-align: center;
@@ -267,7 +286,7 @@ header {
   box-shadow: none; }
 
 .hero_medicamento {
-  background-image: url(/img/perro_medico.png);
+  background-image: url(/img/dog_doctor.jpg);
   background-size: cover;
   height: 35vw;
   background-attachment: fixed;

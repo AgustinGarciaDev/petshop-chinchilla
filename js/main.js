@@ -14,19 +14,17 @@ obtenerDatosApi()
 
  function myProgram(data) {
      
+/*    window.onload = function () {
      
+     document.querySelector(".loader").style.display ="none"
+   } */
+   
+   
     let array = data.response
     const productos = document.querySelector("#productos")
     const productosJuguetes = document.querySelector(".juguetes")
     const productosFarmacia = document.querySelector(".farmacia")
-    const tablaCarrito = document.querySelector(".carrito_compras")
-    let carrito = []
-
-
-   /* formulario */
-   const formulario = document.querySelector("#form")
-   const submitBtn = document.querySelector("#enviar")
-   
+      
     const stacts = {
    
      juguetes: [],
@@ -70,9 +68,10 @@ obtenerDatosApi()
             let tengoOferta
            
             if (producto.stock < 5) { 
-             tengoOferta = "Últimas unidades"
+              tengoOferta = "Pocos unidades"
+              
             } else {
-             tengoOferta = ""
+              tengoOferta = "Tiene unidades"
             }
             const cajita = document.createElement('div')
             cajita.className = "producto"
@@ -86,11 +85,11 @@ obtenerDatosApi()
                       <h3>${producto.nombre}</h3>
                     </div>
                     <div class="precio">
-                      <p class="precio_producto"> $ ${producto.precio}</p>
-                      <p> STOCK: <span> ${producto.stock} </span>
+                      <p class="precio_producto"> $ ${producto.precio} </p>
+                      <p> STOCK: <span> ${producto.stock}</span>
                     </div>
-                     <div class="mostrarCartel">
-                     <p>${tengoOferta}</p>
+                     <div>
+                      <p class="mostrarCartel"> ${tengoOferta}</p>
                      </div>
                     <div class="agregar_carrito">
                     <button id="${producto._id}"  class="btn" >Agregar al Carrito</button>
@@ -100,7 +99,9 @@ obtenerDatosApi()
 
              `
             productos.appendChild(cajita)
-
+             
+            const cartel = document.querySelector(".mostrarCartel")
+            console.log(cartel)
             const texto = document.getElementById("O-" + producto._id)
  
             document.getElementById("D-" + producto._id).addEventListener('click', () => {
