@@ -1,0 +1,135 @@
+.contacto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.titulo {
+  padding: 20px;
+}
+.titulo_text {
+  font-family: $titulo;
+  font-size: 3rem;
+}
+
+.sub_text {
+  font-family: "Montserrat";
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.formulario_contacto {
+  display: flex;
+  flex-direction: column;
+  font-family: $texto;
+  padding: 2vw;
+  background: $color-secundario;
+  border-radius: 16px;
+  width: 26vw;
+  box-shadow: $shadow;
+}
+
+.input_form {
+  height: 35px;
+  border: none;
+  font-family: $texto;
+  text-align: center;
+}
+
+.bloque_1 {
+  display: flex;
+}
+.contenido_bloque {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+}
+
+.radio_item {
+  display: flex;
+  align-items: center;
+}
+.radio_item span {
+  margin-right: 4px;
+}
+.size_radio {
+  width: 22px;
+}
+
+.radio_gato {
+  margin-left: 5px;
+}
+
+.select_mascota {
+  margin-top: 17px;
+  display: block;
+}
+.bloque_2 {
+  padding-left: 10px;
+}
+.text_area {
+  padding-left: 10px;
+}
+
+.enviar {
+  display: flex;
+  justify-content: center;
+}
+
+.btn_submit {
+  margin-top: 15px;
+  width: 20vw;
+  height: 34px;
+  border: none;
+  background: $color-primario;
+  color: white;
+  font-weight: bold;
+  font-size: 21px;
+  border-radius: 5px;
+}
+
+.text_form {
+  font-weight: bold;
+  padding: 10px 0;
+}
+
+textarea {
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  font-family: $texto;
+  font-size: 20px;
+}
+
+.contacto {
+  background-image: url(/img/contact_bg.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.redireccion {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.text_redireccion {
+  margin-top: 7vw;
+  font-family: $titulo;
+  text-align: center;
+}
+
+.btn_redirec {
+  display: flex;
+  text-decoration: none;
+  color: white;
+  font-size: montserrat;
+  font-family: $texto;
+  border-radius: 3px;
+  border-radius: 3px;
+  background: linear-gradient(145deg, #ffa90a, #f59400);
+  box-shadow: 1px 3px 10px #ed8f00, 0px 1px 6px #ffa500;
+  padding: 14px;
+  border-radius: 20px;
+  margin: 16px;
+}

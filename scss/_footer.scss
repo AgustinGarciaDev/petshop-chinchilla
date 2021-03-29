@@ -1,0 +1,84 @@
+footer {
+  background: #710303;
+  color: white;
+}
+.promocion {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2vw;
+}
+
+.title_promotion {
+  font-family: $texto;
+  font-size: 2em;
+}
+.sub_title {
+  font-family: $texto;
+  font-size: 0.5em;
+}
+.separador {
+  border: 1px solid white;
+}
+
+.sucribite {
+  border: none;
+  width: 32vw;
+  height: 43px;
+  padding-left: 20px;
+}
+
+.logo_footer {
+  width: 10vw;
+}
+
+.franco_footer {
+  display: flex;
+  align-items: center;
+}
+.pages {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1vw;
+}
+.pages_web {
+  display: flex;
+  justify-content: space-between;
+
+  padding-right: 5vw;
+}
+
+.footer_list {
+  list-style: none;
+}
+.list_redes {
+  display: flex;
+  list-style: none;
+}
+
+.list_redes a {
+  padding: 0 10px;
+}
+
+.logo_text_footer {
+  font-family: $texto;
+}
+
+.title_footer {
+  font-family: $texto;
+  font-weight: bold;
+  text-align: center;
+}
+
+.menuWeb {
+  padding: 0 12px;
+}
+
+.btn_footer {
+  border: none;
+  background: #ffbd59;
+  padding: 14px;
+  color: white;
+  font-weight: bold;
+}

@@ -1,0 +1,132 @@
+.img_hero {
+  width: 30vw;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: #ffbd592e;
+  padding: 3vw;
+}
+.btn_hero {
+  display: flex;
+  text-decoration: none;
+  color: white;
+  font-size: montserrat;
+  font-family: $texto;
+  background: #ff9a00;
+  padding: 14px;
+  border-radius: 20px;
+  width: 11vw;
+  margin-top: 16px;
+}
+.text_hero_title {
+  font-family: $titulo;
+  font-size: 3em;
+}
+
+.text_hero_subTitle {
+  font-family: $texto;
+}
+
+.comoTrabajamos_text {
+  font-family: $titulo;
+  text-align: center;
+  font-size: 3em;
+  margin: 1vw;
+}
+
+.heroVideo {
+  width: 44vw;
+  margin-left: -85px;
+  margin-top: 10px;
+  position: relative;
+  top: 30px;
+}
+.imagen_hero {
+  background: #ff5757;
+  width: 41vw;
+}
+
+.animaciones {
+  display: flex;
+  justify-content: space-around;
+  margin: 4vw;
+}
+
+.categorias {
+  display: flex;
+  justify-content: space-around;
+}
+
+.titulo_explicacion {
+  text-align: center;
+  font-family: $texto;
+  margin: 10px;
+  color: #ff5757;
+}
+
+.text_explicacion {
+  text-align: center;
+  font-size: 17px;
+  font-family: $texto;
+}
+.categoriaShop {
+  background-color: #ff5757;
+  height: 20vw;
+  border-radius: 20px;
+  box-shadow: #ff575770 13px 9px 6px 0px;
+  margin-bottom: 50px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.categoriaShop h3 {
+  text-align: center;
+  font-size: 2rem;
+  font-family: $texto;
+  margin-left: 20px;
+}
+
+.categoria_foto {
+  width: 20vw;
+}
+.categoria_foto_perro {
+  width: 20vw;
+  margin-top: 58px;
+}
+
+.btn-categoria {
+  display: flex;
+  text-decoration: none;
+  color: white;
+  font-size: montserrat;
+  font-family: $texto;
+  background: #ff9a00;
+  padding: 14px;
+  margin-right: 20px;
+  border-radius: 20px;
+}
+
+.direcion {
+  text-align: center;
+  font-family: $texto;
+  font-size: 1.4em;
+}
+
+.map {
+  display: flex;
+  justify-content: center;
+}
+.map > iframe {
+  width: 90%;
+  height: 25vw;
+  margin: 2vw;
+}
+
+.nosotros_text {
+  width: 28vw;
+}
