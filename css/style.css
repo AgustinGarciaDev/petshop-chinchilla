@@ -218,9 +218,15 @@ header {
 .info_producto {
   font-weight: 600;
   line-height: 19px;
-  font-size: 16rem;
-  font-size: 1rem;
-  max-width: 16vw; }
+  font-size: 15px;
+  padding-top: 1rem;
+  margin: 0;
+  min-height: 8vh;
+  text-align: start;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 1rem; }
 
 .precio {
   display: flex;

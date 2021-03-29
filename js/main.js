@@ -71,7 +71,7 @@ obtenerDatosApi()
               tengoOferta = "Pocos unidades"
               
             } else {
-              tengoOferta = "Tiene unidades"
+              tengoOferta = ""
             }
             const cajita = document.createElement('div')
             cajita.className = "producto"
