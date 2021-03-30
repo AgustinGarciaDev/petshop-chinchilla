@@ -245,7 +245,7 @@ header {
   border: none; }
 
 .mostrarCartel {
-  background: #ff5757;
+  background: red;
   font-family: "Montserrat", sans-serif;
   color: white;
   text-align: center; }
@@ -262,6 +262,11 @@ header {
   width: 70%;
   font-weight: bold;
   border-radius: 7px; }
+
+.descripcion_mostrar_btn:hover {
+  background: #ff9800;
+  color: white;
+  transition: opacity 2s linear; }
 
 .descripcion_oculta {
   visibility: hidden;
@@ -462,6 +467,7 @@ footer {
   padding-right: 5vw; }
 
 .footer_list {
+  text-align: center;
   list-style: none; }
 
 .list_redes {

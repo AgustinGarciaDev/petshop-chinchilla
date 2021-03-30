@@ -111,6 +111,12 @@
   border-radius: 7px;
 }
 
+.descripcion_mostrar_btn:hover {
+  background: #ff9800;
+  color: white;
+  transition: opacity 2s linear;
+}
+
 .descripcion_oculta {
   visibility: hidden; /* Al alterar las márgenes y el height no es necesaria esta propiedad */
   opacity: 0;
