@@ -158,10 +158,11 @@ header {
   width: 28vw; }
 
 .hero_juguetes {
-  background-image: url(/img/juguetes.jpg);
+  background-image: url(/img/gato_jugueteria.png);
   background-size: cover;
   height: 31vw;
-  background-attachment: fixed; }
+  background-attachment: fixed;
+  background-position: center; }
 
 .juguetes_text {
   text-align: center;
