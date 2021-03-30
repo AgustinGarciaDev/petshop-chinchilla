@@ -86,7 +86,7 @@ obtenerDatosApi()
                       <p class="mostrarCartel"> ${tengoOferta}</p>
                      </div>
                     <div class="agregar_carrito">
-                    <button id="${producto._id}"  class="btn" >Hacé tu pedido!</button>
+                    <button id="${producto._id}"  class="btn" >¡Hacé tu pedido!</button>
                         <button id="D-${producto._id}" class="descripcion_mostrar_btn">Ver más</button>
                        <p id="O-${producto._id}" class="descripcion_oculta" > ${producto.descripcion} </p>
                     </div>
