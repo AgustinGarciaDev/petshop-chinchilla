@@ -278,7 +278,10 @@ header {
   display: none; }
 
 .descripcion_mostrar {
-  display: block; }
+  display: block;
+  overflow: auto;
+  height: 5vw;
+  padding: 20px; }
 
 .img_card {
   width: 50px; }

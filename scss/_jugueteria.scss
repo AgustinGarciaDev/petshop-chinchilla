@@ -121,6 +121,9 @@
 
 .descripcion_mostrar {
   display: block;
+  overflow: auto;
+  height: 5vw;
+  padding: 20px;
 }
 
 .img_card {

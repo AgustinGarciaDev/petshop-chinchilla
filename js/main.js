@@ -14,10 +14,7 @@ obtenerDatosApi()
 
  function myProgram(data) {
      
-/*    window.onload = function () {
-     
-     document.querySelector(".loader").style.display ="none"
-   } */
+
    
    
     let array = data.response
@@ -99,9 +96,7 @@ obtenerDatosApi()
 
              `
             productos.appendChild(cajita)
-             
-            const cartel = document.querySelector(".mostrarCartel")
-            console.log(cartel)
+         
             const texto = document.getElementById("O-" + producto._id)
  
             document.getElementById("D-" + producto._id).addEventListener('click', () => {
@@ -113,10 +108,12 @@ obtenerDatosApi()
               }
 
             })
-            
+
+           
       
           })
-   
+       
+    
        
    }
       
