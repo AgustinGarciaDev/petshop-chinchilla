@@ -65,7 +65,7 @@ obtenerDatosApi()
             let tengoOferta
            
             if (producto.stock < 5) { 
-              tengoOferta = "Pocos unidades"
+              tengoOferta = "Ultimas unidades"
               
             } else {
               tengoOferta = ""
@@ -90,7 +90,7 @@ obtenerDatosApi()
                      </div>
                     <div class="agregar_carrito">
                     <button id="${producto._id}"  class="btn" >Agregar al Carrito</button>
-                        <button id="D-${producto._id}" class="descripcion_mostrar_btn">Leer mas</button>
+                        <button id="D-${producto._id}" class="descripcion_mostrar_btn">Ver más</button>
                        <p id="O-${producto._id}" class="descripcion_oculta" > ${producto.descripcion} </p>
                     </div>
 
@@ -98,22 +98,37 @@ obtenerDatosApi()
             productos.appendChild(cajita)
          
             const texto = document.getElementById("O-" + producto._id)
+            const botonDescripcion = document.getElementById("D-" + producto._id)
+            const botonComprar = document.getElementById( producto._id)
  
-            document.getElementById("D-" + producto._id).addEventListener('click', () => {
+            botonDescripcion.addEventListener('click', () => {
                
               if (texto.className === "descripcion_oculta") {
-              texto.className = "descripcion_mostrar"
+                texto.className = "descripcion_mostrar"
+               botonDescripcion.innerText = "Ver menos"
+               
               }  else {
-              texto.className = "descripcion_oculta"
+                texto.className = "descripcion_oculta"
+               botonDescripcion.innerText = "Ver más"
+               
               }
 
             })
-
+            
+            botonComprar.addEventListener('click' , redirecionCompra)
            
       
           })
-       
-    
+        
+       function redirecionCompra(e) {
+         let producto = e.target.parentElement
+        
+         let idProducto = producto.querySelector("button").getAttribute("id")
+
+         let objProducto = array.find(producto => producto._id === idProducto)
+
+         let enviarMensaje = window.open(`https://api.whatsapp.com/send?phone=541123430495&text=Hola%20me%20gustar%C3%ADa%20comprar%20este%20producto *${objProducto.nombre}*`)
+       }
        
    }
       

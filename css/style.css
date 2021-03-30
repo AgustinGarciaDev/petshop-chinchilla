@@ -35,19 +35,6 @@ header {
   padding: 10px;
   margin-right: 56px; }
 
-/* .loader {
-  position: absolute;
-  background: white;
-
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 2;
-} */
 .img_hero {
   width: 30vw; }
 
@@ -56,7 +43,7 @@ header {
   align-items: center;
   justify-content: space-around;
   background: #ffbd592e;
-  padding: 3vw; }
+  padding: 6vw; }
 
 .btn_hero {
   display: flex;
@@ -67,12 +54,14 @@ header {
   background: #ff9a00;
   padding: 14px;
   border-radius: 20px;
-  width: 11vw;
-  margin-top: 16px; }
+  width: 150px;
+  margin-top: 16px;
+  text-align: center; }
 
 .text_hero_title {
   font-family: "Permanent Marker", cursive;
-  font-size: 3em; }
+  font-size: 3em;
+  margin-right: 9vw; }
 
 .text_hero_subTitle {
   font-family: "Montserrat", sans-serif; }
@@ -116,7 +105,7 @@ header {
 
 .categoriaShop {
   background-color: #ff5757;
-  height: 20vw;
+  width: 45vw;
   border-radius: 20px;
   box-shadow: #ff575770 13px 9px 6px 0px;
   margin-bottom: 50px;
@@ -132,10 +121,10 @@ header {
   margin-left: 20px; }
 
 .categoria_foto {
-  width: 20vw; }
+  width: 15vw; }
 
 .categoria_foto_perro {
-  width: 20vw;
+  width: 16vw;
   margin-top: 58px; }
 
 .btn-categoria {
@@ -147,7 +136,8 @@ header {
   background: #ff9a00;
   padding: 14px;
   margin-right: 20px;
-  border-radius: 20px; }
+  border-radius: 20px;
+  width: 10vw; }
 
 .direcion {
   text-align: center;
@@ -196,7 +186,7 @@ header {
   width: 46%; }
 
 .producto {
-  border-radius: 3vw;
+  border-radius: 1vw;
   border: 1px solid rgba(117, 117, 147, 0.2);
   display: flex;
   flex-direction: column;
@@ -242,21 +232,16 @@ header {
   text-align: center;
   margin: 20px auto;
   padding: 10px;
-  background: #ffa926;
+  background: #00c129;
   text-decoration: none;
   color: white;
   width: 70%;
   font-weight: bold;
-  border-radius: 20px; }
+  border-radius: 7px;
+  border: none; }
 
 .mostrarCartel {
   background: #ff5757;
-  font-family: "Montserrat", sans-serif;
-  color: white;
-  text-align: center; }
-
-#mostrarCartelVerde {
-  background: green;
   font-family: "Montserrat", sans-serif;
   color: white;
   text-align: center; }
@@ -271,7 +256,7 @@ header {
   color: white;
   width: 70%;
   font-weight: bold;
-  border-radius: 20px;
+  border-radius: 7px;
   border: none; }
 
 .descripcion_oculta {
