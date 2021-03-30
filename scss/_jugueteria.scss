@@ -1,5 +1,5 @@
 .hero_juguetes {
-  background-image: url(/img/gato_jugueteria.png);
+  background-image: url(/img/gato_jugueteria.jpg);
   background-size: cover;
   height: 31vw;
   background-attachment: fixed;
@@ -33,7 +33,6 @@
 
 .producto {
   border-radius: 1vw;
-  border: 1px solid rgba(117, 117, 147, 0.2);
   display: flex;
   flex-direction: column;
   width: 240px;
@@ -41,6 +40,8 @@
   margin: 20px;
   min-height: auto;
   justify-content: space-around;
+  background: #ffbd592e;
+  box-shadow: 9px 11px 11px #bbb9b9;
 }
 .img_producto {
   display: flex;
@@ -101,21 +102,25 @@
   text-align: center;
   margin: 20px auto;
   padding: 10px;
-  background: #ffa926;
+  background: transparent;
+  border: 2px solid #ff9800;
+  color: #ff9800;
   text-decoration: none;
-  color: white;
   width: 70%;
   font-weight: bold;
   border-radius: 7px;
-  border: none;
 }
 
 .descripcion_oculta {
-  display: none;
+  visibility: hidden; /* Al alterar las márgenes y el height no es necesaria esta propiedad */
+  opacity: 0;
+  height: 0;
+  padding: 0;
 }
 
 .descripcion_mostrar {
-  display: block;
+  visibility: visible;
+  transition: opacity 2s linear;
   overflow: auto;
   height: 5vw;
   padding: 20px;

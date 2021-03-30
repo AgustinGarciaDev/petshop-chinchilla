@@ -1,3 +1,4 @@
+/* Funcion */
 async function obtenerDatosApi() {
     
     try {
@@ -15,9 +16,7 @@ obtenerDatosApi()
  function myProgram(data) {
      
 
-   
-   
-    let array = data.response
+    let items = data.response
     const productos = document.querySelector("#productos")
     const productosJuguetes = document.querySelector(".juguetes")
     const productosFarmacia = document.querySelector(".farmacia")
@@ -26,8 +25,6 @@ obtenerDatosApi()
    
      juguetes: [],
      medicamentos: [],
-     pocoStockJuguetes: [],
-     pocoStockMedicamento: [],
    }
    
    
@@ -35,7 +32,7 @@ obtenerDatosApi()
      
    function filtrarCategoria( arrayCategoria,categoria) {
      
-     array.map(item => {
+     items.map(item => {
        
        if (item.tipo === categoria) {
          arrayCategoria.push(item)
