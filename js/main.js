@@ -30,7 +30,7 @@ obtenerDatosApi()
    
    /* Separando  */
      
-   function filtrarCategoria( arrayCategoria,categoria) {
+   function filtrarPorCategoria( arrayCategoria,categoria) {
      
      items.map(item => {
        
@@ -40,8 +40,8 @@ obtenerDatosApi()
      })
      
    }    
-   filtrarCategoria( stacts.juguetes , "Juguete") 
-   filtrarCategoria( stacts.medicamentos ,"Medicamento") 
+   filtrarPorCategoria( stacts.juguetes , "Juguete") 
+   filtrarPorCategoria( stacts.medicamentos ,"Medicamento") 
   
 
      /* Imprimir */
@@ -124,7 +124,7 @@ obtenerDatosApi()
 
          let objProducto = array.find(producto => producto._id === idProducto)
 
-         let enviarMensaje = window.open(`https://api.whatsapp.com/send?phone=541123430495&text=Hola%20me%20gustar%C3%ADa%20comprar%20este%20producto *${objProducto.nombre}*`)
+         let enviarMensaje = window.open(`https://api.whatsapp.com/send?phone=541123430495&text=Hola%20me%20gustaria%C3%ADa%20comprar%20el%20producto *${objProducto.nombre}*`)
        }
        
    }
