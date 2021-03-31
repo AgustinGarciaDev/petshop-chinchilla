@@ -30,12 +30,20 @@
   box-shadow: $shadow;
 }
 
+input::placeholder {
+  padding: 12px;
+}
+
+textarea::placeholder {
+  padding: 12px;
+  font-size: 14px;
+}
+
 .input_form {
   width: 12vw;
   height: 3vw;
   border: none;
   font-family: $texto;
-  text-align: center;
 }
 
 .bloque_1 {
@@ -107,6 +115,7 @@ textarea {
   background-image: url(/img/contact_bg.png);
   background-size: cover;
   background-position: center;
+  margin: 4vw;
 }
 
 .redireccion {

@@ -62,7 +62,7 @@ obtenerDatosApi()
             let tengoOferta
            
             if (producto.stock < 5) { 
-              tengoOferta = "Ultimas unidades"
+              tengoOferta = "Últimas unidades"
               
             } else {
               tengoOferta = ""
