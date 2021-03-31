@@ -2,9 +2,11 @@
 async function obtenerDatosApi() {
     
     try {
-        const respuesta = await fetch("https://apipetshop.herokuapp.com/api/articulos")
-        var data = await respuesta.json()
+      const respuesta = await fetch("https://apipetshop.herokuapp.com/api/articulos")
+         
+       var data = await respuesta.json()
         
+   
         myProgram(data)
      }
     catch (error) {
