@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,200;1,300&family=Permanent+Marker&display=swap"
@@ -41,7 +42,18 @@
             </div>
         </section>
         <section class="layout">
-            <section id="productos" class="productos_items farmacia">
+            <section id="productos" class="productos_items farmacia"> </section>
+            <section id="carrito" class="carrito_compras">
+                <div class="contenedorProd">
+                    <div class="titular">
+                        <h1 class="titularCarrito">Mi pedido</h1>
+                        <a id="vaciarCarrito" href=""><i class="far fa-trash-alt"></i></a>
+
+                    </div>
+                    <hr>
+                    <div id="contenedorProductoList" class="carritoContenedor"></div>
+                    <div id="totalPrecio"></div>
+                </div>
             </section>
 
         </section>
@@ -97,8 +109,10 @@
         </div>
 
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.js"></script>
     <script src="https://kit.fontawesome.com/a43f0d7568.js" crossorigin="anonymous"></script>
     <script src="./js/main.js"></script>
+
 </body>
 
 </html>

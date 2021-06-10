@@ -186,7 +186,51 @@ header {
   font-family: "Montserrat", sans-serif; }
 
 .carrito_compras {
-  width: 46%; }
+  width: 72vw;
+  text-align: center; }
+
+.titularCarrito {
+  font-family: "Montserrat", sans-serif;
+  padding: 13px;
+  font-size: 30px; }
+
+.imagen_producto {
+  object-fit: cover;
+  width: 7vw; }
+
+.titulo_producto_carrito {
+  font-family: "Montserrat", sans-serif; }
+
+.producto_individual {
+  display: flex;
+  text-align: left;
+  margin: 22px; }
+
+.precio_producto_carrito {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  font-weight: bold; }
+
+.btn_sumar_restado {
+  border-radius: 50%;
+  width: 2vw;
+  height: 2vw;
+  background-color: #ff5757;
+  border: none;
+  color: white; }
+
+.btn_sumar_restado:focus {
+  outline: none;
+  box-shadow: none; }
+
+.cantidad_producto {
+  padding: 0 10px; }
+
+.contador {
+  display: flex;
+  align-items: center; }
 
 .producto {
   border-radius: 1vw;
@@ -293,6 +337,46 @@ header {
 .descripcion_mostrar_btn:focus {
   outline: none;
   box-shadow: none; }
+
+.totalProductoCarrito {
+  padding: 20px;
+  font-family: "Montserrat", sans-serif;
+  text-align: left;
+  font-weight: bold;
+  font-size: 1.5rem; }
+
+.contenedorProd {
+  border: #6d6d6d 1px dashed;
+  border-radius: 3px 3px 4px 4px;
+  position: sticky;
+  top: 10px;
+  overflow: auto;
+  height: 45vw;
+  margin-top: 53px; }
+
+.titular {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
+.texto_producto {
+  padding-left: 3vw; }
+
+.notyf {
+  font-family: "Montserrat", sans-serif; }
+
+.fa-trash-alt {
+  margin-right: 27px;
+  font-size: 23px;
+  color: gray; }
+
+.carritosvg {
+  width: 15vw;
+  margin-top: 18px; }
+
+.btn_delete {
+  margin-top: 19px;
+  padding: 0 20px; }
 
 .hero_medicamento {
   background-image: url(/img/dog_doctor.jpg);
