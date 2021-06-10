@@ -1,5 +1,6 @@
 # PET SHOP FRANCO 🐕
-Aplicación web dinamica realizada para un petshop ficticio consumiendo una API para el listado de productos que ofrece al publico.
+Aplicación web dinamica realizada para un petshop ficticio consumiendo una API para el listado de productos que ofrece al publico. 
+<br/>
 ![ezgif-4-83a1c429b812](https://user-images.githubusercontent.com/66225450/121469903-ade87400-c993-11eb-8a0a-067f24800c6d.gif)
 <br/>
 Podes ver la web hosteada en Netlify en el siguiente enlace: https://petshopbarracas.netlify.app/index.html
